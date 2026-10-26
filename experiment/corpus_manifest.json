@@ -1,0 +1,82 @@
+{
+ "pool_chunks": 797,
+ "files": {
+  "ecfr_324H_PCA.xml": {
+   "source": "ecfr",
+   "snapshot": "eCFR point-in-time 2022-12-31",
+   "words": 4261,
+   "sha256": "7e3568c85f005246258dd0a75531f116fa0594484172d5fd3270b35b1380b993",
+   "chunks_kept": 15
+  },
+  "ecfr_324_10_minimums.xml": {
+   "source": "ecfr",
+   "snapshot": "eCFR point-in-time 2022-12-31",
+   "words": 4317,
+   "sha256": "702646234e0dccd847ad0ba42ba4a58d5c9786514977e4226575f286e23406d0",
+   "chunks_kept": 7
+  },
+  "ecfr_324_22_adjustments.xml": {
+   "source": "ecfr",
+   "snapshot": "eCFR point-in-time 2022-12-31",
+   "words": 6921,
+   "sha256": "38e805243c9944da3d1012c70b72f67c77895c875bd1bf96ea691ec4951a5a11",
+   "chunks_kept": 22
+  },
+  "ecfr_252_5_categories.xml": {
+   "source": "ecfr",
+   "snapshot": "eCFR point-in-time 2022-12-31",
+   "words": 1066,
+   "sha256": "06d6b170e29b789a2673d39fc1e320d51511e6b245be2d470e6f10eee3611198",
+   "chunks_kept": 4
+  },
+  "ecfr_329_LCR_scope.xml": {
+   "source": "ecfr",
+   "snapshot": "eCFR point-in-time 2022-12-31",
+   "words": 225,
+   "sha256": "1ccac4e188e836376c07c2dc66250e2700d4eab6843b7e92e1c090b7da799fa5",
+   "chunks_kept": 1
+  },
+  "fr_84FR59230.txt": {
+   "source": "fr_tailoring",
+   "snapshot": "84 FR 59230, 1 Nov 2019",
+   "words": 57197,
+   "sha256": "e5637fb6a344d3dc8c314141bccd42ceb9dd083628d1725195ffd4bb298651ba",
+   "chunks_kept": 171
+  },
+  "fdic_rms_2-1_wb20221204.pdf": {
+   "source": "fdic_rms_capital",
+   "snapshot": "Wayback 2022-12-04",
+   "words": 13605,
+   "sha256": "9b4df4da795e95df81d974866e69a1468bcba77fef9200032912149c788b1ca3",
+   "chunks_kept": 45
+  },
+  "fdic_rms_6-1_wb20221210.pdf": {
+   "source": "fdic_rms_liquidity",
+   "snapshot": "Wayback 2022-12-10",
+   "words": 17135,
+   "sha256": "1e2bf800e9bf591cd4bdf1d2f9fbfba85d86c40d58c4db0f37c52679e76298f5",
+   "chunks_kept": 56
+  },
+  "occ_ch_liquidity_wb20221016.pdf": {
+   "source": "occ_liquidity",
+   "snapshot": "Wayback 2022-10-16",
+   "words": 33059,
+   "sha256": "688078698bfd739f01cbe68b9db7a6bcede1f571a800c71883c7a377c3f9298a",
+   "chunks_kept": 99
+  },
+  "fed_cbem_wb20230120.pdf": {
+   "source": "fed_cbem",
+   "snapshot": "Wayback 2023-01-20",
+   "words": 43511,
+   "sha256": "9b0a654de6049371379300719b558988085e009599af7780d1c86a65c8373c34",
+   "chunks_kept": 130
+  },
+  "ffiec_031_041_instr_202212.pdf": {
+   "source": "ffiec_rcr",
+   "snapshot": "Dec 2022 edition (Wayback 2023-05-22)",
+   "words": 92009,
+   "sha256": "3270c544bccad52ef1621003b67f39462efbcd50c0ffa3c417353ee90a02081d",
+   "chunks_kept": 247
+  }
+ }
+}

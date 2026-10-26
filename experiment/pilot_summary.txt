@@ -1,0 +1,27 @@
+calls 100; seconds per call mean 23.4, median 24.1, max 30.4
+prompt tokens mean 1483, max 1696
+pool chunks 797; K 30; top 3; temperature 0.7
+
+miss rate by omega x class:
+  omega 0.0 covered  25/30
+  omega 0.0 novel    13/20
+  omega 1.0 covered  26/30
+  omega 1.0 novel    10/20
+
+miss rate by question:
+  C1 20/20  answers {'adequately_capitalized': 20}
+  C2 15/20  answers {'category_IV': 5, 'category_II': 5, 'category_III': 10}
+  C3 16/20  answers {'no': 20}
+  N1 11/20  answers {'no': 15, 'yes': 5}
+  N2 12/20  answers {'no': 20}
+
+supervisor agreement (same answer, sup 0 vs 1) by omega:
+  omega 0.0: 19/25
+  omega 1.0: 25/25
+
+masking check (label | true name | model answer):
+  Bank 49 | SILICON VALLEY BANK | unknown
+  Bank 93 | SIGNATURE BANK | unknown
+  Bank 12 | MUFG UNION BANK, NATIONAL ASSOCIATION | unknown
+  Bank 34 | STATE STREET BANK AND TRUST COMPANY | unknown
+  Bank 77 | SYNCHRONY BANK | unknown

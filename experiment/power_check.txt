@@ -1,0 +1,18 @@
+null: rejection rate at Holm-adjusted 5% over 100 replications
+  H2b filler: r(shared) - r(private)             0.04
+  H3 systemic: sys_emp(SS) - sys_emp(PD)         0.01
+  H4 novel: r(novel) - r(covered), gold arms     0.00
+  H2a wording: r(same) - r(different)            0.02
+  H1 coverage: miss(N0) - miss(PD)               0.01
+effects: rejection rate at Holm-adjusted 5% over 100 replications
+  H1 coverage: miss(N0) - miss(PD)               1.00
+  H2a wording: r(same) - r(different)            0.85
+  H2b filler: r(shared) - r(private)             0.66
+  H3 systemic: sys_emp(SS) - sys_emp(PD)         0.40
+  H4 novel: r(novel) - r(covered), gold arms     0.77
+pilot_like: rejection rate at Holm-adjusted 5% over 100 replications
+  H1 coverage: miss(N0) - miss(PD)               1.00
+  H2a wording: r(same) - r(different)            0.88
+  H2b filler: r(shared) - r(private)             0.71
+  H3 systemic: sys_emp(SS) - sys_emp(PD)         0.29
+  H4 novel: r(novel) - r(covered), gold arms     0.01

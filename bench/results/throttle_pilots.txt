@@ -1,0 +1,11 @@
+calls with timing and clock cap: 140 (of the 3 pilot logs)
+
+per pilot: n, median s/call, median cap
+  pilot2_log.jsonl     62    21.0  0.38
+  pilot3_log.jsonl     78    37.7  0.44
+
+by clock cap at call start: n, median s/call, median prompt tokens
+  cap [0.00, 0.35]     6    48.7  1584
+  cap [0.35, 0.50]   107    21.5  1465
+  cap [0.50, 0.75]    10    41.8  1466
+  cap [0.75, 1.00]    17    38.8  1391

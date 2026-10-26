@@ -1,0 +1,40 @@
+part A calls 52; temperature 1.0; label order shuffled per supervisor
+seconds per call, all: mean 20.5, median 20.2
+seconds per call, clock cap >= 0.9 at both ends (0 calls): none
+prompt tokens mean 1472
+
+misses by omega x class:
+  omega 0.0 covered 5/8
+  omega 0.0 novel  2/8
+  omega 0.0 rule   9/10
+  omega 1.0 covered 8/8
+  omega 1.0 novel  3/8
+  omega 1.0 rule   5/10
+
+misses by question (answers):
+  R1 3/4  -:4%, -:6%, -:5%, -:6%
+  R2 3/4  -:8%, -:6%, -:10%, -:6%
+  R3 3/4  -:4.5%, -:8%, -:8%, -:6.5%
+  R4 3/4  -:$50 billion, -:$100 billion, -:$250 billion, -:$250 billion
+  R5 2/4  -:$100 billion, -:$700 billion, -:$250 billion, -:$250 billion
+  C1 6/8  Bank 49:adequately_capitalized, Bank 77:adequately_capitalized, Bank 49:well_capitalized, Bank 77:well_capitalized, Bank 49:adequately_capitalized, Bank 77:adequately_capitalized, Bank 49:adequately_capitalized, Bank 77:adequately_capitalized
+  C2 7/8  Bank 49:category_IV, Bank 77:category_IV, Bank 49:category_II, Bank 77:category_II, Bank 49:category_III, Bank 77:category_III, Bank 49:category_III, Bank 77:category_III
+  N1 3/8  Bank 49:yes, Bank 77:yes, Bank 49:yes, Bank 77:yes, Bank 49:yes, Bank 77:yes, Bank 49:yes, Bank 77:no
+  N2 2/8  Bank 49:yes, Bank 77:no, Bank 49:yes, Bank 77:no, Bank 49:no, Bank 77:no, Bank 49:no, Bank 77:no
+
+agreement sup 0 vs 1 (answers; both miss; one miss) by omega:
+  omega 0.0: same answer 4/13; both miss 6; one miss 4
+  omega 1.0: same answer 9/13; both miss 6; one miss 4
+
+part B, thinking on (omega 1, sup 0): misses 8/10; unparsed 6; seconds mean 98.2; completion tokens mean 912
+  R1 -: UNPARSED (truth 5%), 93s
+  R2 -: UNPARSED (truth 10%), 96s
+  R3 -: 8% (truth 6.5%), 80s
+  R4 -: UNPARSED (truth $100 billion), 103s
+  R5 -: UNPARSED (truth $250 billion), 103s
+  C1 Bank 49: UNPARSED (truth well_capitalized), 106s
+  C2 Bank 49: UNPARSED (truth category_IV), 108s
+  C1 Bank 77: well_capitalized (truth well_capitalized), 111s
+  C2 Bank 77: category_III (truth none), 84s
+  N2 Bank 49: yes (truth yes), 97s
+  same items without thinking (omega 1, sup 0): misses 7/10

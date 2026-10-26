@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "llm-phone-inference-lab: on-device LLM inference measurements and a pre-registered RAG experiment"
+authors:
+  - family-names: "Dribsa"
+    given-names: "Biniyam Mosisa"
+    orcid: "https://orcid.org/0009-0002-5027-1311"
+    affiliation: "TIMONA Fintech Research"
+license: MIT
+date-released: 2026-10-24

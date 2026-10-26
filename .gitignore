@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.gguf
+experiment/main_log.jsonl
+experiment/main_mask.jsonl
+experiment/main_stdout.log
+experiment/.e1_runner.pid
+experiment/OSF_REGISTRATION.txt

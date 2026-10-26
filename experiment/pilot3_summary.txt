@@ -1,0 +1,39 @@
+calls 78; temperature 1.0; K 30 filler + 1 rule passage per family; top 3
+seconds per call: mean 35.2, median 37.7; clock cap at start: median 0.44
+
+misses by arm x class:
+  nogold   covered 7/8
+  nogold   novel   2/8
+  nogold   rule    8/10
+  private  covered 5/8
+  private  novel   1/8
+  private  rule    0/10
+  shared   covered 4/8
+  shared   novel   4/8
+  shared   rule    0/10
+
+rule passage retrieved (top 3) when in corpus: 33/36
+  misses when retrieved: 6/33
+  misses when not retrieved: 3/3
+
+misses by wording (rule and covered items, shared+private arms):
+  ecfr      4/16
+  fdic_rms  2/7
+  fed_cbem  3/7
+  fr        0/6
+
+misses by question and arm:
+  R1 shared: 0/2  private: 0/2  nogold: 2/2
+  R2 shared: 0/2  private: 0/2  nogold: 2/2
+  R3 shared: 0/2  private: 0/2  nogold: 2/2
+  R4 shared: 0/2  private: 0/2  nogold: 1/2
+  R5 shared: 0/2  private: 0/2  nogold: 1/2
+  C1 shared: 2/4  private: 3/4  nogold: 4/4
+  C2 shared: 2/4  private: 2/4  nogold: 3/4
+  N1 shared: 2/4  private: 1/4  nogold: 2/4
+  N2 shared: 2/4  private: 0/4  nogold: 0/4
+
+supervisor pairs by arm (same answer; both miss; exactly one miss):
+  shared   same 13/13; both miss 4; one miss 0
+  private  same 9/13; both miss 2; one miss 2
+  nogold   same 8/13; both miss 7; one miss 3
